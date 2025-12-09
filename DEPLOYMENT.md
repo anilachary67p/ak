@@ -9,12 +9,14 @@ Your portfolio website is ready to deploy! Choose your preferred platform below.
 ## Option 1: GitHub Pages (Recommended - Free)
 
 ### Prerequisites
+
 - GitHub account
 - Git installed on your machine
 
 ### Steps
 
 **Step 1: Create GitHub Repository**
+
 1. Go to [GitHub](https://github.com)
 2. Click "+" → "New repository"
 3. Repository name: `ak`
@@ -22,6 +24,7 @@ Your portfolio website is ready to deploy! Choose your preferred platform below.
 5. Click "Create repository"
 
 **Step 2: Configure Git Locally**
+
 ```bash
 cd /Volumes/MacDisk-1/PROJECTS/MY_PROJECTS/ak
 
@@ -45,6 +48,7 @@ git push -u origin main
 ```
 
 **Step 3: Enable GitHub Pages**
+
 1. Go to your repository on GitHub
 2. Click "Settings" (top right)
 3. Scroll left to "Pages" in the left sidebar
@@ -54,10 +58,12 @@ git push -u origin main
 7. Wait ~1-2 minutes for deployment
 
 **Step 4: Access Your Portfolio**
+
 - Your site will be live at: `https://YOUR_USERNAME.github.io/ak/`
 - Example: `https://anilachary67.github.io/ak/`
 
 **Step 5: Update Repository Links (Optional)**
+
 - Go to repository "Settings" → "General"
 - Update description and website URL
 
@@ -68,11 +74,13 @@ git push -u origin main
 ### Steps
 
 **Step 1: Connect GitHub**
+
 1. Go to [Netlify](https://netlify.com)
 2. Click "Sign up" → Choose "GitHub"
 3. Authorize Netlify to access your GitHub
 
 **Step 2: Deploy Site**
+
 1. Click "New site from Git"
 2. Select your "ak" repository
 3. Keep default settings:
@@ -81,17 +89,20 @@ git push -u origin main
 4. Click "Deploy site"
 
 **Step 3: Access Your Portfolio**
+
 - Your site will be live in ~30 seconds
 - Netlify will assign a random subdomain
 - You can see it at the top of the Deploy logs
 
 **Step 4: Customize Domain (Optional)**
+
 1. Go to "Site settings" → "Site details"
 2. Click "Change site name"
 3. Enter a custom name (e.g., `anil-portfolio`)
 4. Your URL: `https://anil-portfolio.netlify.app`
 
 **Step 5: Use Custom Domain (Premium)**
+
 - Click "Domain settings"
 - Connect your own domain (requires DNS setup)
 
@@ -102,17 +113,20 @@ git push -u origin main
 ### Steps
 
 **Step 1: Connect GitHub**
+
 1. Go to [Vercel](https://vercel.com)
 2. Click "Sign up" → Choose "Continue with GitHub"
 3. Authorize Vercel
 
 **Step 2: Deploy**
+
 1. Click "New Project"
 2. Select the "ak" repository
 3. Keep all default settings
 4. Click "Deploy"
 
 **Step 3: Access Your Portfolio**
+
 - Your site deploys automatically
 - Check the deployment URL (provided on the dashboard)
 - Automatic deployments on every GitHub push
@@ -197,15 +211,18 @@ git push origin main
 ## Performance Optimization
 
 ### Optimize Images (When Added)
+
 - Use TinyPNG or ImageOptim to compress
 - Use modern formats: WebP, AVIF
 - Recommended size: max 100KB per image
 
 ### Minify Code (Optional)
+
 - Use online tools or build processes
 - Reduces file sizes by 20-30%
 
 ### Monitor Performance
+
 - Use Lighthouse (Chrome DevTools)
 - Use PageSpeed Insights
 - Aim for 90+ scores
@@ -215,6 +232,7 @@ git push origin main
 ## SSL Certificate
 
 Most platforms provide FREE SSL:
+
 - **GitHub Pages**: Automatic HTTPS
 - **Netlify**: Automatic HTTPS
 - **Vercel**: Automatic HTTPS
@@ -227,6 +245,7 @@ Most platforms provide FREE SSL:
 If you want your own domain (e.g., anil-portfolio.dev):
 
 ### Option 1: Use Netlify
+
 1. Purchase domain from Namecheap, GoDaddy, etc.
 2. In Netlify: Site settings → Domain management
 3. Add your custom domain
@@ -234,6 +253,7 @@ If you want your own domain (e.g., anil-portfolio.dev):
 5. Wait 24-48 hours for DNS propagation
 
 ### Option 2: Use Traditional Hosting
+
 1. Purchase domain
 2. Point domain nameservers to host
 3. Upload files via FTP/cPanel
@@ -249,12 +269,17 @@ Edit `index.html`, add before `</head>`:
 
 ```html
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-XXXXXXXXXX");
 </script>
 ```
 
@@ -263,6 +288,7 @@ Get your ID from Google Analytics dashboard.
 ### Monitor Uptime
 
 Use free services:
+
 - [Uptime Robot](https://uptimerobot.com) - Alerts if site goes down
 - [Pingdom](https://www.pingdom.com) - Performance monitoring
 - [StatusCake](https://www.statuscake.com) - Uptime monitoring
@@ -271,31 +297,34 @@ Use free services:
 
 ## Troubleshooting Deployments
 
-| Issue | Solution |
-|-------|----------|
-| Site shows 404 | Check file paths, ensure index.html in root |
-| Styles not loading | Clear cache, check CSS file path |
-| Links broken | Verify all URLs in HTML |
-| Mobile menu broken | Check JavaScript errors (F12) |
-| Slow loading | Optimize images, minify CSS/JS |
-| Deploy failed | Check for syntax errors in HTML/CSS |
+| Issue              | Solution                                    |
+| ------------------ | ------------------------------------------- |
+| Site shows 404     | Check file paths, ensure index.html in root |
+| Styles not loading | Clear cache, check CSS file path            |
+| Links broken       | Verify all URLs in HTML                     |
+| Mobile menu broken | Check JavaScript errors (F12)               |
+| Slow loading       | Optimize images, minify CSS/JS              |
+| Deploy failed      | Check for syntax errors in HTML/CSS         |
 
 ---
 
 ## Next Steps After Deployment
 
 1. **Share Your Portfolio**
+
    - LinkedIn profile link
    - Resume/CV
    - Email signature
    - GitHub profile
 
 2. **Monitor Engagement**
+
    - Track views with Analytics
    - Monitor uptime
    - Check contact form submissions
 
 3. **Keep It Updated**
+
    - Add new projects
    - Update experience
    - Refresh skills
@@ -320,6 +349,7 @@ Use free services:
 ## Questions?
 
 Refer to platform-specific documentation or contact platform support:
+
 - GitHub: support.github.com
 - Netlify: support.netlify.com
 - Vercel: vercel.com/support

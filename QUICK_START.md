@@ -5,6 +5,7 @@
 ### 1. View Your Portfolio Locally
 
 **Option A: Open in Browser Directly**
+
 ```bash
 # Navigate to your project folder and open index.html in your browser
 # macOS:
@@ -15,6 +16,7 @@ open index.html
 ```
 
 **Option B: Use Local Server (Recommended)**
+
 ```bash
 # Navigate to project directory
 cd /Volumes/MacDisk-1/PROJECTS/MY_PROJECTS/ak
@@ -30,24 +32,26 @@ python3 -m http.server 8000
 
 ## 📁 File Overview
 
-| File | Purpose |
-|------|---------|
-| `index.html` | Main portfolio content (all sections) |
-| `styles.css` | Visual styling & responsive design |
-| `script.js` | Interactive features & animations |
-| `AnilKumarPResume.pdf` | Your resume (linked in portfolio) |
-| `README.md` | Detailed documentation |
+| File                   | Purpose                               |
+| ---------------------- | ------------------------------------- |
+| `index.html`           | Main portfolio content (all sections) |
+| `styles.css`           | Visual styling & responsive design    |
+| `script.js`            | Interactive features & animations     |
+| `AnilKumarPResume.pdf` | Your resume (linked in portfolio)     |
+| `README.md`            | Detailed documentation                |
 
 ---
 
 ## ✨ Features Your Portfolio Includes
 
 ✅ **Professional Design**
+
 - Modern gradient color scheme
 - Smooth animations
 - Professional typography
 
 ✅ **Full Content**
+
 - Executive summary
 - 8+ years experience timeline
 - All technical skills organized by category
@@ -56,6 +60,7 @@ python3 -m http.server 8000
 - Contact information
 
 ✅ **Interactive Elements**
+
 - Smooth navigation
 - Mobile-responsive menu
 - Social media links (GitHub, LinkedIn, Email, Phone)
@@ -64,6 +69,7 @@ python3 -m http.server 8000
 - Scroll-to-top button
 
 ✅ **Mobile Optimized**
+
 - Works on all devices
 - Touch-friendly navigation
 - Responsive images and text
@@ -73,28 +79,38 @@ python3 -m http.server 8000
 ## 🎨 Quick Customization
 
 ### Change Primary Color
+
 Edit `styles.css`, line 11:
+
 ```css
---primary-color: #0066ff;  /* Change this to any hex color */
+--primary-color: #0066ff; /* Change this to any hex color */
 ```
 
 ### Update Your Name
+
 Edit `index.html`, line 56:
+
 ```html
-<h1 class="hero-title">Hi, I'm <span class="highlight">YOUR NAME HERE</span></h1>
+<h1 class="hero-title">
+  Hi, I'm <span class="highlight">YOUR NAME HERE</span>
+</h1>
 ```
 
 ### Update Contact Information
+
 Edit `index.html`, lines 73-81 for social links
 Edit `index.html`, lines 313-328 for contact details
 
 ### Add/Remove Experience
+
 Edit Experience section in `index.html` (lines 100-180)
 
 ### Add/Remove Skills
+
 Edit Skills section in `index.html` (lines 195-240)
 
 ### Add/Remove Projects
+
 Edit Projects section in `index.html` (lines 265-310)
 
 ---
@@ -159,9 +175,9 @@ git push -u origin main
 
 ## ⌨️ Keyboard Shortcuts
 
-| Key | Action |
-|-----|--------|
-| `/` | Jump to home |
+| Key | Action          |
+| --- | --------------- |
+| `/` | Jump to home    |
 | `c` | Jump to contact |
 
 ---
@@ -173,15 +189,13 @@ Edit these in `index.html`:
 ```html
 <!-- GitHub -->
 <a href="https://github.com/YOUR_USERNAME" target="_blank">
-
-<!-- LinkedIn -->
-<a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank">
-
-<!-- Email -->
-<a href="mailto:YOUR_EMAIL@gmail.com">
-
-<!-- Phone -->
-<a href="tel:+91XXXXXXXXXX">
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank">
+    <!-- Email -->
+    <a href="mailto:YOUR_EMAIL@gmail.com">
+      <!-- Phone -->
+      <a href="tel:+91XXXXXXXXXX"></a></a></a
+></a>
 ```
 
 ---
@@ -200,20 +214,24 @@ Edit these in `index.html`:
 ## 🐛 Troubleshooting
 
 **Portfolio not loading?**
+
 - Clear browser cache (Ctrl+Shift+Delete)
 - Try incognito/private browsing mode
 - Check browser console (F12 → Console)
 
 **Styles look wrong?**
+
 - Ensure styles.css is in the same folder as index.html
 - Hard refresh: Ctrl+F5 (Windows) or Cmd+Shift+R (Mac)
 
 **Mobile menu not working?**
+
 - Check script.js is loaded
 - Test in different browser
 - Check browser console for errors
 
 **Links don't work?**
+
 - Verify URLs are correct
 - Test in new tab/window
 - Check for typos in href attributes
@@ -243,6 +261,7 @@ Edit these in `index.html`:
 ## 📧 Quick Update Summary
 
 Your portfolio includes:
+
 - ✅ Your full resume content
 - ✅ 8+ years experience timeline
 - ✅ All your technical skills

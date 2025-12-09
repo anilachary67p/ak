@@ -5,16 +5,19 @@ A modern, responsive portfolio website showcasing your professional profile, exp
 ## Features
 
 ✨ **Modern Design**
+
 - Clean, professional aesthetic with gradient accents
 - Fully responsive for all screen sizes
 - Smooth animations and transitions
 
 📱 **Responsive Layout**
+
 - Mobile-first approach
 - Adaptive navigation with mobile menu
 - Optimized for desktop, tablet, and mobile devices
 
 🎯 **Key Sections**
+
 - **Hero Section**: Eye-catching introduction with social links
 - **About**: Professional summary with statistics
 - **Experience**: Timeline view of career progression
@@ -24,6 +27,7 @@ A modern, responsive portfolio website showcasing your professional profile, exp
 - **Contact**: Contact information and message form
 
 ⚡ **Interactive Features**
+
 - Smooth scroll navigation
 - Scroll animations
 - Mobile menu toggle
@@ -33,6 +37,7 @@ A modern, responsive portfolio website showcasing your professional profile, exp
 - Hover effects and animations
 
 🔧 **Technologies Used**
+
 - HTML5 (Semantic markup)
 - CSS3 (Flexbox, Grid, Animations)
 - Vanilla JavaScript
@@ -53,6 +58,7 @@ ak/
 ## File Descriptions
 
 ### index.html
+
 - Semantic HTML5 structure
 - Meta tags for SEO
 - Navigation bar with mobile menu
@@ -61,6 +67,7 @@ ak/
 - Social media links
 
 ### styles.css
+
 - CSS variables for theming
 - Responsive grid layouts
 - Animation keyframes
@@ -68,6 +75,7 @@ ak/
 - Gradient backgrounds and modern styling
 
 ### script.js
+
 - Navigation functionality
 - Scroll animations
 - Form handling
@@ -108,24 +116,29 @@ python3 -m http.server 8000
 ### Update Personal Information
 
 1. **Hero Section** (index.html, line ~55):
+
    - Update name, title, description
    - Update contact information
    - Modify social media links
 
 2. **About Section** (index.html, line ~80):
+
    - Update professional summary
    - Modify statistics (years, projects, clients, platforms)
 
 3. **Experience** (index.html, line ~100):
+
    - Add/remove job entries
    - Update company names and dates
    - Modify responsibilities and tech stack
 
 4. **Skills** (index.html, line ~180):
+
    - Add/remove skill categories
    - Update skill badges
 
 5. **Projects** (index.html, line ~260):
+
    - Add/remove project cards
    - Update project descriptions and tags
 
@@ -139,13 +152,13 @@ Edit CSS variables in `styles.css` (lines 10-18):
 
 ```css
 :root {
-    --primary-color: #0066ff;      /* Main blue */
-    --secondary-color: #ff6b6b;    /* Red accent */
-    --dark-bg: #0f1419;            /* Dark background */
-    --light-bg: #ffffff;           /* Light background */
-    --text-dark: #1a1a1a;          /* Dark text */
-    --text-light: #666666;         /* Light text */
-    /* ... more variables ... */
+  --primary-color: #0066ff; /* Main blue */
+  --secondary-color: #ff6b6b; /* Red accent */
+  --dark-bg: #0f1419; /* Dark background */
+  --light-bg: #ffffff; /* Light background */
+  --text-dark: #1a1a1a; /* Dark text */
+  --text-light: #666666; /* Light text */
+  /* ... more variables ... */
 }
 ```
 
@@ -221,6 +234,7 @@ vercel
 ## Performance Optimization
 
 ### Already Implemented
+
 - CSS Grid & Flexbox (efficient layouts)
 - CSS animations (GPU-accelerated)
 - Intersection Observer API (lazy loading ready)
@@ -228,6 +242,7 @@ vercel
 - No external libraries
 
 ### Future Enhancements
+
 - Image optimization/compression
 - Service Workers for offline support
 - Progressive Web App (PWA) features
@@ -237,6 +252,7 @@ vercel
 ## SEO Optimization
 
 The portfolio includes:
+
 - Meta tags (title, description, keywords, author)
 - Semantic HTML5
 - Proper heading hierarchy (h1, h2, h3)
@@ -244,6 +260,7 @@ The portfolio includes:
 - Structured data ready
 
 To improve SEO further:
+
 1. Add schema.org structured data
 2. Submit sitemap to search engines
 3. Add robots.txt
@@ -264,7 +281,7 @@ The contact form currently uses `mailto:` links. To add backend functionality:
 
 ```html
 <!-- Add netlify attribute -->
-<form method="POST" netlify>
+<form method="POST" netlify></form>
 ```
 
 ### Option 3: Custom Backend
@@ -283,21 +300,25 @@ Set up a backend API to handle form submissions.
 ## Troubleshooting
 
 ### Issue: Styles not loading
+
 - Clear browser cache (Ctrl+Shift+Delete / Cmd+Shift+Delete)
 - Check file paths in index.html
 - Ensure CSS file is in the same directory
 
 ### Issue: JavaScript not working
+
 - Check browser console for errors (F12 > Console tab)
 - Verify script.js is loaded
 - Ensure HTML IDs match JavaScript selectors
 
 ### Issue: Responsive design broken
+
 - Check viewport meta tag
 - Verify CSS media queries
 - Test in incognito/private mode
 
 ### Issue: Contact form not working
+
 - Ensure email client is configured
 - Check spam folder for test emails
 - Verify email links are correct
@@ -319,12 +340,17 @@ To add Google Analytics:
 
 ```html
 <!-- Add before closing </head> tag -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID');
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "GA_MEASUREMENT_ID");
 </script>
 ```
 
@@ -335,6 +361,7 @@ This portfolio template is provided as-is. Feel free to modify and use for perso
 ## Support & Questions
 
 For issues or questions, please refer to:
+
 - Browser Developer Tools (F12)
 - HTML/CSS/JavaScript documentation
 - Contact information in the portfolio
@@ -342,6 +369,7 @@ For issues or questions, please refer to:
 ## Version History
 
 **Version 1.0** (Current)
+
 - Initial portfolio release
 - All core features implemented
 - Fully responsive design
