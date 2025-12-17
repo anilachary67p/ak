@@ -1,0 +1,100 @@
+ANIL KUMAR P
+Cloud & Backend Engineer | Full-Stack Developer
+9885155454
+
+anilachary.p@gmail.com
+
+Portfolio - anilachary67p.github.io/ak
+
+Linked In : anilachary67
+
+Bengaluru
+
+PROFESSIONAL SUMMARY
+Cloud and Backend Engineer with 8+ years of experience designing and deploying scalable backend systems and cloud-native infrastructures. Strong expertise
+in Kubernetes, Docker, and cloud platforms AWS, Azure, and GCP. Experienced in full-stack development using Node.js, Express.js, PostgreSQL, MongoDB, and
+RESTful APIs, with frontend exposure to React.js and AngularJS. Proficient in secure authentication using OKTA, Auth0, and Azure Entra ID, with hands-on
+experience in DevOps and DevSecOps practices. Delivering high-availability Microservice Architecture and optimizing performance in Agile environments.
+
+SKILLS
+Cloud & DevOps / DevSecOps:
+Azure GCP AWS E2E Networks CI/CD Jenkins Concourse Kubernetes Docker Helm charts Argo CD YAML Microservice Architecture JFrog
+
+Backend And Database: Node.Js Express.Js Fastify JOI Cluster PostgreSQL MongoDB REST APIs SOAP API Flyway Prisma Middleware
+Services / Tools / SDK:
+Auth0 OKTA Azure AD ( Entra ID ) JWT MS Graph API ASB Kafka Pub/Sub Redis OCR OpenAI GenAI Snyk Trivy Burp Scan Veracode
+SonarQube VAPT Message Broker Bull MQ Redis S3 Cloud Storage Functions 8th Wall
+
+Frontend ( Secondary ):
+Angular.Js React.Js HTML CSS BootStrap Augmented Reality Three.Js SSO A-Frame JS ArToolKit AR Code Web XR PWA MUI TanStack
+
+Key Achievements
+
+​ Microsoft Certified: Azure AZ-900
+
+​ Innovation Award (2024–25)
+
+​ Excellence in Performance (2021–22)
+
+EXPERIENCE
+Bengaluru, INDIA
+04/2024 - Present
+
+SLK Software Pvt Ltd (Part of Altimetrik Group)
+Lead Software Engineer
+
+• Leading and mentoring cloud and software engineers, providing technical guidance across backend, cloud and frontend verticals, proactively identifying and
+mitigate technical risks. Manage project resources by defining scope, timelines, and deliverables; conduct regular code reviews to ensure adherence to quality
+standards and best practices. Evaluate and integrate emerging technologies and tools to improve system performance;
+• Collaborated closely with product managers, UI/UX designers, and QA to streamline development processes and ensure alignment with business goals.
+Oversaw full SDLC phases, including planning, design, implementation, testing, and deployment, achieving timely project delivery. Optimized system
+architecture and led database migration efforts, improving scalability and reducing latency by approximately 20%.
+• Clients : Emerson, Berry Global, Maldivian Mermaid, Internal Product , CNA
+Projects : Insure AI, Dextr, Quote AI, FRP, MM-ERP, TAT, Mithril, Multiple POC's & Demos.
+Tech / Tools / Services : Node.js, PostgreSQL, Azure AD, Auth0, OKTA, GCP, Docker, Agile methodologies, Kubernetes, Microservices, MS Graph API, Gen AI,
+SonarQube, VAPT, Trivy / Snyk, Jenkins, ASB, Open AI, OCR, Flyway, On-Prem K8s, Grafana, Prometheus, Kiali, Webhooks integration
+
+Bengaluru, INDIA
+08/2021 - 04/2024
+
+V-Labs Pvt Ltd
+Senior Software Engineer
+
+• Developed reusable components reducing development effort by 80%, optimized critical module performance by 68%, and built RESTful API's using Node.js /
+Java in microservices architecture which significantly improved backend service capabilities and AI-driven data handling.
+• Integrated secure authentication and authorization methods using OKTA (SSO), Auth0, Azure AD and JWT, ensuring robust and secure communication across
+applications.
+• Formulated cloud infrastructure architectures and end-to-end CI/CD ( Jenkins / Concourse ) pipeline designs, implementing QA practices using Veracode,
+SonarQube and Stackdriver.
+• Clients : CNA, Finolex
+Projects : NBSI, Endorsement, POC's & Demos
+Tech / Tools / Services : Node.js, Express.js, PostgreSQL, Docker, Kubernetes, GCP, OKTA, Auth0, JWT, Microservices, Veracode, SonarQube, Stackdriver.
+
+Bengaluru/Hyd, INDIA
+02/2017 - 08/2021
+
+Immersion Software Labs Pvt Ltd
+Software Developer
+
+• Developed full-stack web applications specializing in Frontend UI, Backend services and deployment in AWS Cloud environments.
+• Built responsive Progressive Web Applications (PWAs) integrated with Google Analytics.
+• Created interactive Augmented Reality (AR) web experiences using frameworks such as A-Frame, Three.js and JSArToolKit, optimizing 3D rendering and
+performance. Implemented robust web APIs, caching mechanisms and proxy services to ensure cross-device responsiveness
+• Managed and maintained AWS Infrastructure, including server configurations, EC2 instances, S3 storage, auto-scaling groups, security groups, and load
+balancing with ELB within a VPC.
+• Clients : ALS, In - House Product
+Projects : AR Cards, L Catalog, Multiple Projects on AR
+Tech / Tools / Services : AngularJS, Node.js, MongoDB, AWS, PWA, Augmented Reality (A-Frame, Three.js, JSArToolKit, WebXR, Babylon.js, 8th Wall).
+
+Education
+Visakhapatnam, INDIA
+2015
+
+VITAM College Of Engineering, JNTUK
+B-Tech in Computer Science Of Engineering
+
+www.enhancv.com
+
+Powered by
+
+
